@@ -1,0 +1,73 @@
+@media (max-width: 1250px) {
+  .components a {
+    font-size: 15px;
+  }
+  .element h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 440px) {
+  .element h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 415px) {
+  .components {
+    display: none;
+  }
+  .components a{
+    margin-top: 5px;
+  }
+  .menu {
+    display: flex;
+    right: 0;
+  }
+  header {
+    width: 85%;
+  }
+  #cruz {
+    display: none;
+  }
+}
+@media (max-width: 305px) {
+  .element h1 {
+    font-size: 30px;
+  }
+  .element a {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 265px) {
+  header {
+    width: 80%;
+  }
+}
+@media (max-width: 260px) {
+  .element h1 {
+    font-size: 25px;
+  }
+  .element a {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 215px) {
+  .element h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .element a {
+    padding: 10px 20px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 180px) {
+  header {
+    width: 75%;
+  }
+}

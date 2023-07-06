@@ -1,0 +1,78 @@
+@media (max-width: 640px) {
+  .quitethree .elementthree p {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 470px) {
+  .quitethree .elementthree p {
+    max-width: 350px;
+    font-size: 15px;
+  }
+
+  .quitethree .elementthree h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 415px) {
+  .componentsthree {
+    display: none;
+  }
+  .componentsthree a {
+    margin-top: 5px;
+  }
+  .menuthree {
+    display: flex;
+    right: 0;
+  }
+  header {
+    width: 85%;
+  }
+  #cruzthree {
+    display: none;
+  }
+  .quitethree .elementthree p {
+    max-width: 250px;
+  }
+  .quitethree{
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 320px) {
+  .elementthree {
+    margin-top: 50px;
+    margin-left: -20px;
+  }
+}
+
+@media (max-width: 290px) {
+  .quitethree .elementthree p {
+    max-width: 200px;
+  }
+  .quitethree .elementthree {
+    margin-top: 150px;
+  }
+  .quitethree .elementthree h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 265px) {
+  .elementthree {
+    margin-left: -30px;
+  }
+  .componentsthree {
+    left: 70px;
+  }
+  .quitethree{
+    margin-top: -5px;
+  }
+}
+
+@media (max-width: 240px) {
+  .menuthree {
+    right: 15px;
+  }
+}

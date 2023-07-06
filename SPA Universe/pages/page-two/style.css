@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  left: 35px;
+  position: absolute;
+  top: 20px;
+}
+.centertwo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.menutwo {
+  display: none;
+  position: absolute;
+}
+#cruztwo {
+  max-width: 24px;
+}
+.logo img {
+  width: 40px;
+}
+.componentstwo a {
+  color: rgba(196, 196, 204, 1);
+  margin-left: 40px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.quitetwo {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+.imgtwo img {
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.elementtwo h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: rgba(225, 225, 230, 1);
+  font-family: "Roboto", sans-serif;
+}
+.elementtwo p {
+  font-size: 16px;
+  max-width: 570px;
+  line-height: 25px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(225, 225, 230, 1);
+}

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  left: 35px;
+  position: absolute;
+  top: 20px;
+}
+
+.center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.logo img {
+  width: 40px;
+}
+.components a {
+  color: rgba(196, 196, 204, 1);
+  margin-left: 40px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+}
+
+#cruz {
+  max-width: 24px;
+}
+.quite {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgone img {
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.element {
+  text-align: center;
+}
+.element h1 {
+  font-size: 48px;
+  margin-bottom: 35px;
+  color: rgba(225, 225, 230, 1);
+  font-family: "Roboto", sans-serif;
+}
+
+.element a {
+  padding: 12px 32px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  border: 2px solid #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.element a:hover {
+  transition: 1s;
+  color: rgba(2, 121, 157, 1);
+  background: rgba(255, 255, 255, 1);
+}
